@@ -2,7 +2,7 @@ var loadFinished = "no";
 var ready_to_go = "no"
 var gameStatus = "begin"
 var conversationTexts = [
-  "Hello! We are so excited to have you here!",
+  "Hello! We are so excited to have you here! (Press [space] to continue)",
   "Let us be the first to congratulate you on your wise decision to sign up for this adventure.",
   "Welcome...to the check-in counter for your Deserted Island Getaway Package!",
   "There is so much to look forward to! But first, let us introduce ourselves.",
