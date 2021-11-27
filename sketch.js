@@ -248,7 +248,7 @@ function conversation(){
       fill(153,76,0)
       text("Please choose your style.",420,200)
       textSize(25)
-      text("(Use 'j' & 'l' to select, [space] to confirm)",390,230)
+      text("(Use [J] & [L] to select, [space] to confirm)",390,230)
       if (keyIsDown(76)){
         genderSelector = 700
       }
@@ -301,7 +301,7 @@ function conversation(){
       text("Which of the following objects would you like to bring with?",160,200)
       textSize(25)
       text("Think twice before you select!",430,230)
-      text("(Use 'J' & 'L' to select, [space] to confirm)",390,260)
+      text("(Use [J] & [L] to select, [space] to confirm)",390,260)
 
       fill(255,153,51,200)
       rect(objectSelector,300,200,200,15,15,15,15)
@@ -378,7 +378,7 @@ function tomGreeting(){
     "Earn money by picking fruits and fishing, then you can enjoy more activities on the island -- You can swin across the river, and even build a museum on this island!",
     "After building the museum, you can donate the fish you get. Try to collect as many species as possible!",
     "I think that's all I need to teach you. I believe you have the ability to fully enjoy your life here.",
-    "Don't worry! You can always reach out to our service center by pressing 'T'. I'm always here to help you."
+    "Don't worry! You can always reach out to our service center by pressing [T]. I'm always here to help you."
 
   ]
   if (greet == -1){
@@ -479,7 +479,7 @@ function interface(){
     text("Tom Nook",210,320)
     textSize(25)
     fill(153,76,0)
-    text('Hi! You can always call me by pressing "T" to see instructions!',280,380)
+    text('Hi! You can always call me by pressing [T] to see instructions!',280,380)
     image(keyW,410,420,30,30)
     image(keyA,380,450,30,30)
     image(keyS,410,450,30,30)
